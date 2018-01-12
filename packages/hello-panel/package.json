@@ -1,0 +1,19 @@
+{
+  "name": "hello_panel",
+  "version": "0.0.1",
+  "description": "extend panel",
+  "author": "Cocos Creator",
+  "main": "main.js",
+  "main-menu": {
+    "Packages/HelloPanel": {
+      "message": "hello_panel:open"
+    }
+  },
+  "panel": {
+    "main": "panel/index.js",
+    "type": "dockable",
+    "title": "Simple Panel",
+    "width": 400,
+    "height": 300
+  }
+}
